@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 18px;
+    background-color: dimgray;
+}
+
+.app {
+    width: 95%;
+    max-width: 420px;
+    margin : 2rem auto;
+    padding: 2rem;
+    min-height: 100vh;
+    background: url(images/Phone\ wallper.jpg);
+    background-size: cover;
+    font-family: 'Pacifico';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.app label {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.app input {
+    width: 80%;
+    padding:.7rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 2px 2px 5px black;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.app button {
+    font-family: 'Pacifico';
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 0 .5rem;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+}
+
+.app button:hover {
+    background-color: white;
+}
+
+.list-container {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100%;
+    /* height: 400px; */
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 2px 2px 10px rgb(35, 8, 8);
+    padding: 1rem;
+}
+
+.list-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    user-select: none;
+    transition: all 300ms ease-in-out;
+}
+
+.list-item > * {
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(47, 58, 68);
+    color: rgb(236, 232, 232);
+    text-shadow: 2px 2px 2px rgb(5, 5, 5);
+    border-radius: 10px;
+    flex-grow: 1;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.list-item > li:hover {
+    background-color: whitesmoke;
+    text-shadow: 2px 2px 2px rgb(208, 204, 204);
+    color: black;
+    cursor: pointer;
+}
