@@ -11,6 +11,7 @@ body {
     background-color: dimgray;
     background: url(images/Phone\ wallper.jpg);
     background: url(images/Phone\ wallper.jpg);
+    background-size: cover;
 }
 
 .app {
@@ -18,7 +19,6 @@ body {
     margin : 2rem auto;
     padding: 2rem;
     min-height: 100vh;
-    background-size: cover;
     font-family: 'Pacifico';
     display: flex;
     flex-direction: column;
